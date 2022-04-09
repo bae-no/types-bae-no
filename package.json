@@ -1,8 +1,8 @@
 {
-  "name": "types-bae-no",
-  "version": "1.0.0",
-  "main": "./src/index.ts",
-  "types": "./build/index.d.ts",
+  "name": "@bae-no/types",
+  "version": "1.0.3",
+  "main": "",
+  "types": "build/index.d.ts",
   "repository": "https://github.com/bae-no/types-bae-no.git",
   "author": "lifeisegg123 <leejj2002@naver.com>",
   "license": "MIT",
