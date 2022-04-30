@@ -8,8 +8,8 @@ export const PROFILE_PROVIDER = {
   ETC: "etc",
 } as const;
 
-export const PROFILE_PROFILE_ARRAY = Object.values(PROFILE_PROVIDER);
-export type ProfileProvider = typeof PROFILE_PROFILE_ARRAY[number];
+type ValueOf<T> = T[keyof T];
+export type ProfileProvider = ValueOf<typeof PROFILE_PROVIDER>;
 
 class UserProfile extends BaseEntity {
   id!: number;
